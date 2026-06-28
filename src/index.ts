@@ -13,5 +13,3 @@ async function setup() {
 }
 
 setup();
-
-export default app.app;
