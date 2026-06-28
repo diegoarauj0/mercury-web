@@ -1,6 +1,6 @@
 {
 	"name": "mercury",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Um simples encurtador de URLs feito com Express, Handlebars e MongoDB :D",
 	"license": "MIT",
 	"author": "diegoarauj0",
