@@ -5,10 +5,13 @@ import { connectMongoose } from "./database/mongodb.database.js";
 import { env } from "./env.js";
 import { App } from "./app.js";
 
+const app = new App(env.PORT);
+
 async function setup() {
-	const app = new App(env.PORT);
 	await connectMongoose();
 	await app.start();
 }
 
 setup();
+
+export default app.app;

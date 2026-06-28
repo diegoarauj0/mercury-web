@@ -4,7 +4,7 @@ import router from "./router.js";
 import express from "express";
 
 export class App {
-	private app = express();
+	public readonly app = express();
 
 	constructor(public readonly port: number) {
 		this.setup();
